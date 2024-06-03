@@ -1,0 +1,12 @@
+.navBar
+{
+    background-color: rgb(155, 155, 196);
+    color: crimson;
+    font-size: larger;
+    flex-direction: column;
+}
+.Video
+{
+    width: auto;
+    height: auto;
+}
