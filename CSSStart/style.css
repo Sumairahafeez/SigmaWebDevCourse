@@ -1,0 +1,20 @@
+.header
+{
+    background-image:  url(/Projects/BloggingSite/Images/home-bg.png);
+    margin: 5px;
+    padding: 10px;
+    height:auto;
+    box-sizing: border-box;
+    border-color: black;
+}
+.list:hover
+{
+    color: brown;
+    align-self: center;
+    align-items: center;
+}
+#Home
+{
+    border-color: cadetblue;
+    border-radius: 1px;
+}
