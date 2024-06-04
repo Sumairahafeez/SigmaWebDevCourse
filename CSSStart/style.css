@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .header
 {
     background-image:  url(/Projects/BloggingSite/Images/home-bg.png);
@@ -9,12 +12,44 @@
 }
 .list:hover
 {
-    color: brown;
+    /*color: brown;*/
     align-self: center;
     align-items: center;
+    
 }
-#Home
+.list
+{
+    align-items: stretch;
+    display:flex;
+    flex-direction: row;
+    text-decoration: double;
+    text-decoration-color: blanchedalmond;
+    text-underline-offset:inherit;
+    padding: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    font-family: 'Pacifico';
+    color: beige;
+}
+#home:hover
 {
     border-color: cadetblue;
-    border-radius: 1px;
+    border-radius: 5px;
+    color: brown;
+    margin: 5px;
+}
+.navBar
+{
+    animation:both;
+    animation-duration: 1ms;
+    display: flex;
+    flex-grow: inherit;
+    text-emphasis-color: red;
+}
+.heading
+{
+    font-family: 'Pacifico','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin-left: 550px;
 }
