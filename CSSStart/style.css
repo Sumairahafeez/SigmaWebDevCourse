@@ -4,11 +4,13 @@
 .header
 {
     background-image:  url(/Projects/BloggingSite/Images/home-bg.png);
-    margin: 5px;
+    margin: auto;
     padding: 10px;
     height:auto;
+    width: 200vh;
     box-sizing: border-box;
     border-color: black;
+    box-sizing: border-box;
 }
 .list:hover
 {
@@ -51,5 +53,40 @@
 {
     font-family: 'Pacifico','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
-    margin-left: 550px;
+    margin-left: 600px;
+}
+.container
+{
+    margin: auto;
+    width: 150vh;
+    display: flex;
+    flex-direction: row wrap;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    border-color: black;
+}
+.article2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10vh;
+    margin-right: 10vh;
+    border: solid blue;
+    box-shadow: 10px 15px 5px  rgb(94, 94, 230) ;
+}
+#Div2
+{
+    
+}
+.article
+{
+    //margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 10vh;
+    border: solid blue;
 }
