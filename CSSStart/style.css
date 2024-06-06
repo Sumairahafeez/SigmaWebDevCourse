@@ -207,6 +207,13 @@ svg:hover{
     position: relative;
     image-resolution: 250px 430px;
 }
+.Id2 > h1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-family: monospace;
+    font-size: larger;
+}
 .Id3
 {
     background-image: url("/images/ar-left.png");
