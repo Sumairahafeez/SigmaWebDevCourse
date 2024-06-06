@@ -243,3 +243,31 @@ section
 {
     margin-left: 68px;
 }
+article
+{
+    display: flex;
+    justify-content: center;
+}
+.article1
+{   display: flex;
+    text-overflow: auto;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 80vw;
+    height: 50vh;
+    border: 2px solid black;
+}
+
+.article1  h5,h2,p,h3
+{
+    text-overflow: hidden;
+    width: 25%;
+    min-width: 30%;
+    line-height: 30px;
+    margin-left: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    position: relative;
+    top: 52px;
+    background-color: blanchedalmond;
+}
