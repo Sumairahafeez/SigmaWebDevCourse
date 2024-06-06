@@ -13,10 +13,10 @@
     border-color: black;
     box-sizing: border-box;
 }
-/* *
+*
 {
     margin: 0;
-} */
+}
 .list:hover
 {
     /*color: brown;*/
@@ -41,6 +41,17 @@
     color: beige;
     cursor: pointer;
 }
+ svg:first-child 
+{
+    margin-left: 10px;
+    fill: white;
+    position: relative;
+    top: 30px;
+    left: 220px;
+}
+svg:hover{
+    fill:black
+}
 #home:hover
 {
     border-color: cadetblue;
@@ -55,6 +66,13 @@
     list-style: none;
     justify-content: space-evenly;
     margin-left: 30vh;
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+.navList :hover
+{
+    color: black;
 }
 .navList > li
 {
@@ -164,4 +182,57 @@
     align-self: center;
     font-family: monospace;
     font-size: 30px;
+}
+.picContainer
+{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+.Id1, .Id2,.Id3,.Id4
+{
+   
+    width: 430px;
+    height: 250px;
+    margin: 5px;
+
+    overflow: hidden;
+}
+.Id1
+{
+    background-image: url("/images/ar-left.png");
+}
+.Id2
+{
+    position: relative;
+    image-resolution: 250px 430px;
+}
+.Id3
+{
+    background-image: url("/images/ar-left.png");
+}
+.Frame > iframe
+{
+    border: 2px solid black;
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 250px;
+    top:25px;
+    margin-bottom: 200px;
+    margin: auto;
+}
+hr
+{
+   
+        width: 90vw;
+        height: 2px;
+        background-color: #000; /* Black color */
+        margin: 40px;
+        display: inline-block;
+    
+}
+section
+{
+    margin-left: 68px;
 }
