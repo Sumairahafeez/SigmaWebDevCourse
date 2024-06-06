@@ -1,0 +1,60 @@
+.container
+{
+    width: 25vw;
+    height: 80vh;
+    min-height: 90vh;;
+    border: 0px solid black;
+    margin:auto;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 5px 6px 20px 0px rgb(177, 176, 176);
+}
+.Image
+{
+    padding: 10px;
+    border-radius: 25px;
+    width: 24vw;
+}
+.List
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+}
+.Elements
+{
+    padding: 10px;
+    font-family: monospace;
+    color: gray;
+    font-size: x-large;
+
+}
+div > h1
+{
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px;
+}
+div>p{
+    margin:20px;
+    word-spacing: 10px;
+    line-height: 25px;
+    font-family: monospace;
+}
+.button
+{
+    align-self: center;
+    margin-left: 136px;
+    height:6vh;
+    width: 8vw;
+    border-radius: 30px;
+    background-color: rgb(194, 235, 221);
+    font-family: monospace;
+    font-size: x-large;
+    color: rgb(100, 74, 250);
+    border: 2px solid aliceblue
+}
