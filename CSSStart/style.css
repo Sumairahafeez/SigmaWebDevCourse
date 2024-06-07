@@ -247,27 +247,33 @@ article
 {
     display: flex;
     justify-content: center;
-}
+   }
 .article1
 {   display: flex;
     text-overflow: auto;
     overflow: hidden;
-    justify-content: space-between;
-    width: 80vw;
+    justify-content: flex-start;
+    width: 56vw;
     height: 50vh;
-    border: 2px solid black;
+    margin-right: 70px;
+
 }
 
-.article1  h5,h2,p,h3
+.start
 {
     text-overflow: hidden;
-    width: 25%;
-    min-width: 30%;
+    width:  37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 10%;
     line-height: 30px;
-    margin-left: 5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     position: relative;
-    top: 52px;
-    background-color: blanchedalmond;
-}
+    padding: 22px;
+    top: 2px;
+    left: 140px;
+    background-color:  #f7f7f7;
+};
+
