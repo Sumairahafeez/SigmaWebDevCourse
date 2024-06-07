@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
 .header
 {
     background-color: rgb(85, 82, 82);
@@ -92,7 +93,7 @@ svg:hover{
 }
 .heading
 {
-    font-family: 'Cedarville Cursive','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Recursive','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
     margin-left: 800px;
     font-size: 50px;
@@ -138,26 +139,28 @@ svg:hover{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration:solid;
     text-align: center;
-    font-size: large;
+    font-size: xx-large;
     text-decoration-color: rgb(8, 8, 104);
     text-decoration-thickness: 5px;
     color: aliceblue;
     text-decoration-line: underline;
+    text-underline-offset: 30px;
 }
 .article > h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration:solid;
     text-align: center;
-    font-size: large;
+    font-size: xx-large;
     text-decoration-color: rgb(8, 8, 104);
     text-decoration-thickness: 5px;
     color: aliceblue;
-    text-decoration-line: underline;   
+    text-decoration-line: underline; 
+    text-underline-offset: 30px;  
 }
 .article > p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: xx-large;
+    font-size: 53px;
   
     text-decoration-thickness: 5px;
     color: aliceblue;
@@ -167,7 +170,7 @@ svg:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     text-align: center;
-    font-size: xx-large;
+    font-size: 53px;
   
     text-decoration-thickness: 5px;
     color: aliceblue;
@@ -182,6 +185,7 @@ svg:hover{
     align-self: center;
     font-family: monospace;
     font-size: 30px;
+    cursor: pointer;
 }
 .picContainer
 {
