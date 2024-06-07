@@ -247,7 +247,8 @@ article
 {
     display: flex;
     justify-content: center;
-   }
+    /* flex-direction: column; */
+}
 .article1
 {   display: flex;
     text-overflow: auto;
@@ -276,4 +277,14 @@ article
     left: 140px;
     background-color:  #f7f7f7;
 };
-
+.article3
+{
+    display: flex;
+    text-overflow: auto;
+    overflow: hidden;
+    justify-content: flex-start;
+    width: 56vw;
+    height: 20vh;
+    margin-right: 70px;
+    background-color: #000;
+}
