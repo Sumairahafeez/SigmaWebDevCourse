@@ -276,24 +276,18 @@ article
     left: 140px;
     background-color:  #f7f7f7;
 };
-.article3
+.tab
 {
-    display: flex;
-    text-overflow: auto;
-    overflow: hidden;
-    justify-content: flex-start;
-    width:56vw;
-    flex-direction: column;
-    height: 20vh;
-    position: relative;
-    left: 30px;
-    margin-left: 20px;
-    background-color: #000;
+    background-image: url("/images/gallery-img2.jpg");
+    width: 40px;
+    height: 20px;
 }
 .art
 {  
     display: flex;
     margin-left: 177px;
+  
+    
 }
 .template2
 {
@@ -304,6 +298,7 @@ article
     text-overflow: hidden;
     width:  30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 10%;
@@ -311,11 +306,36 @@ article
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     position: relative;
-    padding: 22px;
+    padding: 37px;
     background-color:  #f7f7f7;
 }
 .left
 {
     height:20%
 }
-
+.Image
+{
+    position: relative;
+    left:-120px;
+    width: fit-content;
+}
+.template3
+{
+    position: relative;
+    top: -70px;
+    left:0px;
+    height:20%;
+    text-overflow: hidden;
+    width:  30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 10%;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    position: relative;
+    padding: 37px;
+    background-color:  #f7f7f7;
+}
