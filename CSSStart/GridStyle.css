@@ -117,3 +117,15 @@
     font-size: larger;
     font-weight: 300;
 }
+@media screen and (max-width:460px) {
+    .container
+    {
+        grid-template-columns: 30px;
+        width: 30vw;
+        height: 30vh;
+    }
+    .all{
+        width:30%;
+        height: 30%;
+    }
+}
